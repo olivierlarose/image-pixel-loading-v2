@@ -1,0 +1,12 @@
+.picture{
+    position: relative;
+    img{
+        width: 1000px;
+        image-rendering: pixelated;
+    }
+    canvas{
+        position: absolute;
+        left: 0;
+        z-index: 1;
+    }
+}
